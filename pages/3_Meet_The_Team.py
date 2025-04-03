@@ -64,7 +64,7 @@ st.subheader("GitHub Repo")
 
 st.markdown("""This is an OpenSource project. Therefore, the GitHub repository which the includes the code 
 			used to carry out this project can be found following this link: 
-			https://github.com/thomasrenwickm/Paramo_GPT""")
+			https://github.com/alejandromedellin/ml_2_group_5""")
 	
 
 

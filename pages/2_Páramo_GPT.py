@@ -106,7 +106,7 @@ Context:
 Question: {{question}}
 """)
 
-llm = ChatGoogleGenerativeAI(model='gemini-2.0-flash')
+llm = ChatGoogleGenerativeAI(model='gemini-2.0-flash', temperature=0)
 
 def format_docs(docs):
     return "\n\n".join([doc.page_content for doc in docs])
